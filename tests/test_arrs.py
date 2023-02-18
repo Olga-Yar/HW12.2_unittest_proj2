@@ -1,5 +1,5 @@
 import unittest
-from unittest_proj.utils import arrs
+from utils import arrs
 
 
 class TestArrs(unittest.TestCase):
