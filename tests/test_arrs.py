@@ -21,3 +21,5 @@ class TestArrs(unittest.TestCase):
     def test_slice_negative_start(self):
         self.assertEqual(arrs.my_slice([1, 2, 3, 4], -1), [4])
 
+    def test_slice_less_length_start(self):
+        self.assertEqual(arrs.my_slice([1, 2, 3, 4], -5), [1, 2, 3, 4])
